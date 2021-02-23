@@ -1,0 +1,28 @@
+{
+  "name": "cl-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A command line tic-tac-toe game",
+  "main": "gamelogic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node gamelogic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayley-jones-cyber/cl-tic-tac-toe.git"
+  },
+  "author": "Hayley Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayley-jones-cyber/cl-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/hayley-jones-cyber/cl-tic-tac-toe#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
